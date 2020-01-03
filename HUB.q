@@ -2,11 +2,11 @@
 
 0@(upsert;`spoke;{`port`slaves`pid xcol enlist(`p`s,`$'x)!("ii"$system@'"ps"),get each".z.",/:x}"ifhpuKk");
 
-update handle:0,up:.z.n from delete from`pid xkey`spoke;
+update handle:0i,up:.z.n from delete from`pid xkey`spoke;
 
 if[`spoke in key`:.;`spoke set get`:spoke]
 
-if[count spoke;update handle:@[hopen;;0N]each port from`spoke]
+if[count spoke;update handle:@[hopen;;0Ni]each port from`spoke]
 
 delete from`spoke where null handle;
 
