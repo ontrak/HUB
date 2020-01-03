@@ -1,2 +1,2 @@
 # HUB
-HUB/spoke manager for dynamic ports
+HUB/spoke manager for dynamic ports in q
