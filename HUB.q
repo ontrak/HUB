@@ -1,6 +1,6 @@
 \p 0W
 
-0@(upsert;`spoke;{`port`slaves`pid xcol enlist(`p`s,`$'x)!("ji"$system@'"ps"),get each".z.",/:x}"ifhpuKk");
+0@(upsert;`spoke;{`port`slaves`pid xcol enlist(`p`s,`$'x)!("ii"$system@'"ps"),get each".z.",/:x}"ifhpuKk");
 
 update handle:0,up:.z.n from delete from`pid xkey`spoke;
 
