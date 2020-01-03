@@ -4,11 +4,11 @@
 
 0@(upsert;`spoke;{update`$"."sv'string"i"$0x0 vs'IP," "sv'X,EXP:("D"$.z.l 1)-.z.D from`port`slaves`pid`IP xcol enlist(`p`s,`$'x)!(system@'"ps"),get each".z.",/:x}"iahuXPKk");
 
-update handle:0i,up:.z.N from delete from`pid xkey`spoke;
+.z.vs:{[x;y]if[x=`spoke;save`spoke]}
+
+`pid xkey update handle:0i,up:.z.N from`spoke;
 
 if[`spoke in key`:.;`spoke set get`:spoke]
-
-.z.vs:{[x;y]if[x=`spoke;save`spoke]}
 
 if[count spoke;update handle:@[hopen;;0Ni]each"j"$port from`spoke]
 
