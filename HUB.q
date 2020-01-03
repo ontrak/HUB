@@ -1,31 +1,21 @@
 \p 0W
 
-0@(upsert;`spoke;{`port`slaves`pid xcol enlist(`p`s,`$'x)!("ii"$system@'"ps"),get each".z.",/:x}"ifhpuKk");
+\c 25 200
 
-update handle:0i,up:.z.n from delete from`pid xkey`spoke;
+0@(upsert;`spoke;{update`$"."sv'string"i"$0x0 vs'IP," "sv'X,EXP:("D"$.z.l 1)-.z.D from`port`slaves`pid`IP xcol enlist(`p`s,`$'x)!(system@'"ps"),get each".z.",/:x}"iahuXPKk");
 
-if[`spoke in key`:.;`spoke set get`:spoke]
+update handle:0i,up:.z.N from delete from`pid xkey`spoke;
 
-if[count spoke;update handle:@[hopen;;0Ni]each port from`spoke]
+if[`spoke in key`:.;`spoke set get`:spoke;];
+
+.z.vs:{[x;y]if[x=`spoke;save`spoke;]}
+
+if[count spoke;update handle:@[hopen;;0Ni]each"j"$port from`spoke;];
 
 delete from`spoke where null handle;
 
-neg[exec handle from spoke]@\:"\\l ",getenv[`HOME],"/HUB/spoke.q";
-
-.z.pc:{p:exec port from spoke where handle=x;
- delete from`loc where port in p;
- delete from`fns where port in p;
- delete from`mem where port in p; 
- delete from`tbl where port in p;
- delete from`spoke where handle=x;}
-
-.z.vs:{[x;y]if[x=`spoke;save`spoke]}
-
-.z.ts:{update up:"n"$.z.p-p from`spoke;}
-
-\c 25 150
+.z.pc:{delete from`spoke where handle=x;}
+ 
+.z.ts:{update up:"n"$.z.P-P from`spoke;}
 
 \t 10000
-
-\
-neg[4]@({neg[.z.w]@(z;get[x]@y)};`add;1 2;{r::x})
