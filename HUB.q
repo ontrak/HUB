@@ -6,15 +6,15 @@
 
 update handle:0i,up:.z.N from delete from`pid xkey`spoke;
 
-if[`spoke in key`:.;`spoke set get`:spoke;];
+if[`spoke in key`:.;`spoke set get`:spoke]
 
-.z.vs:{[x;y]if[x=`spoke;save`spoke;]}
+.z.vs:{[x;y]if[x=`spoke;save`spoke]}
 
-if[count spoke;update handle:@[hopen;;0Ni]each"j"$port from`spoke;];
+if[count spoke;update handle:@[hopen;;0Ni]each"j"$port from`spoke]
 
 delete from`spoke where null handle;
 
-.z.pc:{delete from`spoke where handle=x;}
+.z.pc:{delete from`spoke where handle=x}
  
 .z.ts:{update up:"n"$.z.P-P from`spoke;}
 
