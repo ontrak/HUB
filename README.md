@@ -25,6 +25,7 @@ Ideally these sessions will be run in screen or kmon.
 At this point the spoke table in the HUB instance will have one record.
 
 q)flip 0!spoke
+
 pid   | 88912                        
 port  | 63947                        
 slaves| 0                            
@@ -60,7 +61,9 @@ ebb$ pwd
 ebb$ q3.7
 
 / in HUB
+
 q)select pid,port,X,up,dir from spoke
+
 pid   port  X                             up                   dir                       
 -----------------------------------------------------------------------------------------
 88912 63947 "/Users/ebb/q/m64/q HUB.q"    0D00:10:10.020979000 "/Users/ebb/HUB"          
