@@ -65,15 +65,10 @@ ebb$ q3.7
 q)"|" 0:select pid,port,X,up,dir from spoke
 
 "pid|port|X|up|dir"
-
 "-----|-----|---------------------------|--------------------|------------------------"
-
 "88912|63947|/Users/ebb/q/m64/q HUB.q|0D02:04:30.023138000|/Users/ebb/HUB"
-
 "89117|63976|/Users/ebb/q/m64/q qa|0D01:56:34.503904000|/Users/ebb/rxds/imdb/qa"
-
 "89148|63980|/Users/ebb/q/m64/q dev -s 8|0D01:55:58.630640000|/Users/ebb/rxds/imdb/dev"
-
 "89173|63984|/Users/ebb/q/m64/q|0D01:55:34.166582000|/Users/ebb"
 
 
