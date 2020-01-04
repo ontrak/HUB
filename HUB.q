@@ -10,7 +10,7 @@ spoke:`pid xkey{update`$"."sv'string"i"$0x0 vs'IP," "sv'X,EXP:("D"$.z.l 1)-.z.D,
 
 {if[x in key`:.;x upsert get hsym x]}each`spoke`memst`down;
 
-.z.vs:{[x;y]if[x in`spoke`memst`down;save x]}
+.z.vs:{[x;y]if[x=`spoke;update dir:handle@\:"\\cd"from`spoke where handle>0];if[x in`spoke`memst`down;save x]}
 
 if[count spoke;update P:.z.P,handle:@[hopen;;0Ni]each"j"$port from`spoke;delete from`spoke where null handle];
 
@@ -19,5 +19,3 @@ if[count spoke;update P:.z.P,handle:@[hopen;;0Ni]each"j"$port from`spoke;delete 
 .z.ts:{update up:"n"$.z.P-P from`spoke;`memst set{x[`handle]@".Q.w[]"}each spoke}
 
 \t 10000
-\
-select from down where crash>exec max P from spoke
