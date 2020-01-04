@@ -6,7 +6,7 @@ To take advantage of this we will have a registrar called HUB.
 This is started in the HUB directory which in this case is in the home directory.
 Wherever the HUB directory ends up residing replace the environment variable in this line in q.q.
 
-system"l ",getenv[`HOME],"/HUB/spoke.q"
+```system"l ",getenv[`HOME],"/HUB/spoke.q"```
 
 q.q lives in QHOME and is loaded with every invocation of q after q.k is loaded.
 However spoke.q checks that HUB.q has been instaniated and is currently running.
