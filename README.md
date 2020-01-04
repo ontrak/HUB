@@ -53,7 +53,7 @@ ebb$ q3.7 dev -s 8
 
 / app instance
 /Users/ebb
-(base) ebbs-MBP:~ ebb$ q3.7
+ebb$ q3.7
 
 / in HUB
 q)select pid,port,X,up,dir from spoke
