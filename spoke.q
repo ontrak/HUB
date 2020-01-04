@@ -8,4 +8,4 @@ HUB@(upsert;`spoke;{update`$"."sv'string"i"$0x0 vs'IP," "sv'X,EXP:("D"$.z.l 1)-.
 
 HUB@"update handle:.z.w from`spoke where pid=",string .z.i
 
-HOP:{hopen"j"$neg[HUB]@(?;`spoke;enlist(like;`dir;"*/",x);();(first;`port))}
+HOP:{hopen"j"$neg[HUB]@(?;`spoke;enlist(like;`dir;"*/",$[0>type x;string x;x]);();(first;`port))}
