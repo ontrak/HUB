@@ -73,4 +73,35 @@ pid|port|X|up|dir
 89148|63980|/Users/ebb/q/m64/q dev -s 8|0D01:55:58.630640000|/Users/ebb/rxds/imdb/dev
 89173|63984|/Users/ebb/q/m64/q|0D01:55:34.166582000|/Users/ebb
 
+HUB keeps 3 q tables in the HUB dir which are spoke, memst(memory stats) and down (crash reports)
 
+If Hub goes down it re establishes handles with spoke(s) based on the spoke disk image when it is restarted.
+
+If a spoke goes down it is removed from the spoke table and registered with the down table.
+
+/ eample down entry
+
+key|value
+------|------------------------------
+port  | 63663i
+slaves| 8i
+IP    | `192.168.1.252
+h     | `ebbs-mbp.fios-router.home
+u     | `ebb
+X     | "/Users/ebb/q/m64/q dev -s 8"
+P     | 2020.01.04D12:40:36.288073000
+K     | 3.7
+k     | 2019.12.12
+EXP   | 354i
+handle| 10i
+up    | 0D00:05:07.094446000
+dir   | "/Users/ebb/rxds/imdb/dev"
+used  | 351712
+heap  | 67108864
+peak  | 67108864
+wmax  | 0
+mmap  | 0
+mphy  | 17179869184
+syms  | 697
+symw  | 37563
+crash | 2020.01.04D12:45:45.902820000
