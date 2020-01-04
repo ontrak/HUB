@@ -11,16 +11,15 @@ system"l ",getenv[`HOME],"/HUB/spoke.q"
 q.q lives in QHOME and is loaded with every invocation of q after q.k is loaded.
 However spoke.q checks that HUB.q has been instaniated and is currently running.
 
-(base) ebbs-MBP:~ ebb$ q3.7
+ebb$ q3.7
 KDB+ 3.7t 2019.12.12 Copyright (C) 1993-2019 Kx Systems
-m64/ 8(16)core 16384MB ebb ebbs-mbp.fios-router.home 192.168.1.252 EXPIRE 2020.12.23 ebierly@gmail.com KOD #4168408
-
+m64/ 8(16)core 16384MB ebb 192.168.1.252 EXPIRE 2020.12.23
 `HUB down!
 (base) ebbs-MBP:~ ebb$ 
 
-(base) ebbs-MBP:HUB ebb$ pwd
+ebb$ pwd
 /Users/ebb/HUB
-(base) ebbs-MBP:HUB ebb$ q3.7 HUB.q
+ebb$ q3.7 HUB.q
 
 Ideally these sessions will be run in screen or kmon.
 At this point the spoke table in the HUB instance will have one record.
@@ -44,13 +43,13 @@ dir   | "/Users/ebb/HUB"
 Now we can bring up as many q instances as we like.
 They will all be assigned a random non blocked port that will be registered with HUB.
 
-(base) ebbs-MBP:imdb ebb$ pwd
+ebb$ pwd
 /Users/ebb/rxds/imdb
-(base) ebbs-MBP:imdb ebb$ q3.7 qa
+ebb$ q3.7 qa
 
-(base) ebbs-MBP:imdb ebb$ pwd
+ebb$ pwd
 /Users/ebb/rxds/imdb
-(base) ebbs-MBP:imdb ebb$ q3.7 dev -s 8
+ebb$ q3.7 dev -s 8
 
 / app instance
 /Users/ebb
