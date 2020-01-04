@@ -62,7 +62,7 @@ ebb$ q3.7
 
 / in HUB
 
-q)"|" 0:select pid,port,X,up,dir from spoke
+q)select pid,port,X,up,dir from spoke
 
 pid|port|X|up|dir
 -----|-----|---------------------------|--------------------|------------------------
