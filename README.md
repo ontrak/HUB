@@ -12,6 +12,7 @@ q.q lives in QHOME and is loaded with every invocation of q after q.k is loaded.
 However spoke.q checks that HUB.q has been instaniated and is currently running.
 
 ebb$ q3.7
+
 KDB+ 3.7t 2019.12.12 Copyright (C) 1993-2019 Kx Systems
 m64/ 8(16)core 16384MB ebb 192.168.1.252 EXPIRE 2020.12.23
 
