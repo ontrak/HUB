@@ -47,15 +47,19 @@ Now we can bring up as many q instances as we like.
 They will all be assigned a random non blocked port that will be registered with HUB.
 
 ebb$ pwd
+
 /Users/ebb/rxds/imdb
+
 ebb$ q3.7 qa
 
-ebb$ pwd
-/Users/ebb/rxds/imdb
 ebb$ q3.7 dev -s 8
 
 / app instance
+
+ebb$ pwd
+
 /Users/ebb
+
 ebb$ q3.7
 
 / in HUB
