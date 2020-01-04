@@ -19,7 +19,9 @@ m64/ 8(16)core 16384MB ebb 192.168.1.252 EXPIRE 2020.12.23
 `HUB down!
  
 ebb$ pwd
+
 /Users/ebb/HUB
+
 ebb$ q3.7 HUB.q
 
 Ideally these sessions will be run in screen or kmon.
