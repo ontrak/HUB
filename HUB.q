@@ -19,3 +19,5 @@ if[count spoke;update P:.z.P,handle:@[hopen;;0Ni]each"j"$port from`spoke;delete 
 .z.ts:{update up:"n"$.z.P-P from`spoke;`memst set{x[`handle]@".Q.w[]"}each spoke}
 
 \t 10000
+\
+select from down where crash>exec max P from spoke
