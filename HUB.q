@@ -18,7 +18,7 @@ if[count spoke;update handle:@[hopen;;0Ni]each"j"$port from`spoke]
 
 delete from`spoke where null handle;
 
-.z.pc:{`down upsert lj[select from spoke where handle=x;memst];delete from`spoke where handle=x}
+.z.pc:{`down upsert lj[select from spoke where handle=x;memst];delete from`spoke where handle=x;`memst set ij[spoke;memst]}
  
 .z.ts:{update up:"n"$.z.P-P from`spoke;`memst set{x[`handle]@".Q.w[]"}each spoke}
 
