@@ -3,8 +3,8 @@
 
 / init tables
 spoke:`pid xkey{update`$"."sv'string"i"$0x0 vs'IP," "sv'X,EXP:("D"$.z.l 1)-.z.D,handle:0i,up:.z.N,dir:system"\\pwd"from`port`slaves`pid`IP xcol enlist(`p`s,`$'x)!(system@'"ps"),get each".z.",/:x}"iahuXPKk"
-`memst set`pid xkey update pid:.z.i from enlist .Q.w[];
-`down set delete from update crash:.z.P from lj[spoke;memst];
+memst:`pid xkey update pid:.z.i from enlist .Q.w[];
+down:delete from update crash:.z.P from lj[spoke;memst];
 
 / apply disk image 
 {if[x in key`:.;x upsert get hsym x]}each`spoke`memst`down;
@@ -21,3 +21,6 @@ if[count spoke;update P:.z.P,handle:@[hopen;;0Ni]each"j"$port from`spoke;delete 
  / update up time and mem stats every 10 seconds
 .z.ts:{update up:"n"$.z.P-P from`spoke;`memst set{x[`handle]@".Q.w[]"}each spoke}
 \t 10000
+
+\
+select from down where crash>exec max P from spoke
