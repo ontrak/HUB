@@ -14,7 +14,7 @@
 
 .z.vs:{[x;y]if[x in`spoke`memst`down;save x]}
 
-if[count spoke;update handle:@[hopen;;0Ni]each"j"$port from`spoke]
+if[count spoke;update P:.z.P,handle:@[hopen;;0Ni]each"j"$port from`spoke]
 
 delete from`spoke where null handle;
 
