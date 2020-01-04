@@ -108,6 +108,6 @@ crash | 2020.01.04D12:45:45.902820000
 
 All spoke(s) make connections with named services by using HOP instead of hopen.
 
-```q)h:HOP"dev"
-q)h"\\pwd"
-"/Users/ebb/rxds/imdb/dev"```
+```q)h:HOP"dev"```
+```q)h"\\pwd"```
+```"/Users/ebb/rxds/imdb/dev"```
