@@ -8,7 +8,9 @@
 
 `memst set`pid xkey update pid:.z.i from enlist .Q.w[];
 
-{if[x in key`:.;x upsert get hsym x]}each`spoke`memst`down
+`down set delete from lj[spoke;memst];
+
+{if[x in key`:.;x upsert get hsym x]}each`spoke`memst`down;
 
 .z.vs:{[x;y]if[x in`spoke`memst`down;save x]}
 
