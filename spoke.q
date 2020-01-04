@@ -7,3 +7,5 @@ HUB:neg hopen"J"$first" "vs last":"vs first system"lsof -iTCP -sTCP:LISTEN -Pn|g
 HUB@(upsert;`spoke;{update`$"."sv'string"i"$0x0 vs'IP," "sv'X,EXP:("D"$.z.l 1)-.z.D,dir:system"\\pwd"from`port`slaves`pid`IP xcol enlist(`p`s,`$'x)!(system@'"ps"),get each".z.",/:x}"iahuXPKk")
 
 HUB@"update handle:.z.w from`spoke where pid=",string .z.i
+
+HOP:{hopen"j"$neg[HUB]@(?;`spoke;enlist(like;`X;"* ",x,"*");();(first;`port))}
