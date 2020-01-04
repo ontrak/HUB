@@ -26,6 +26,8 @@ At this point the spoke table in the HUB instance will have one record.
 
 q)flip 0!spoke
 
+key|value
+------|------------------------------
 pid   | 88912                        
 port  | 63947                        
 slaves| 0                            
