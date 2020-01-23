@@ -114,6 +114,4 @@ All spoke(s) make connections with named services by using HOP instead of hopen.
 
 ```"/Users/ebb/rxds/imdb/dev"```
 
-HOP which consults with HUB can take sym or string.
-
-```q)h:HOP`dev```
+```q)h:HOP[`h;`dev]```
